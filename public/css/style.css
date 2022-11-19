@@ -1,0 +1,139 @@
+body {
+    background-color: rgb(221, 230, 237);
+  }
+  
+  nav {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 32, 75);
+  }
+  
+  nav h1 {
+    margin: 10px auto;
+    padding: 5px 13px;
+    font-size: 35px;
+    border: 2px solid white;
+    background-color: rgb(221, 230, 237);
+    color: rgb(35, 35, 35);
+  }
+  nav a {
+    font-size: 30px;
+    text-decoration: none;
+  }
+  
+  nav a, 
+  a:visited {
+    color: rgb(194, 194, 194);
+  }
+  
+  #options-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 100px;
+    list-style: none;
+    color: rgb(233, 219, 201);
+  }
+  
+  .authentication-section,
+  .post-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 24px 12.5%;
+    border: 2px solid black;
+    background-color: rgb(57, 57, 57);
+  }
+  
+  .authentication-name,
+  .post-info {
+    color: white;
+    background-color: rgb(57, 57, 57);
+  }
+  
+  .authentication-form,
+  .post-paragraph,
+  .create-post-info {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(198, 221, 240);
+    padding: 12.50%;
+  }
+  
+  .form-label-name {
+    font-size: 23px;
+  }
+  
+  #signup-section h3 {
+    display: flex;
+    justify-content: flex-end;
+    color: rgb(208, 213, 218);
+    padding-right: 20px;
+  }
+  
+  .post-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  
+  .post {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(57, 57, 57);
+    margin: 6%;
+    background-color:  rgb(242, 242, 242);
+  }
+  
+  .blog-post-info {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(36, 36, 36);
+    background-color: rgb(52, 51, 51);
+  }
+  
+  
+  .blog-post-date {
+    color:  rgb(180, 195, 208);
+  }
+  
+  #blogpost-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .form-post-name,
+  .form-post-description {
+    font-size:35px;
+    color: rgb(173, 189, 202);
+  }
+  #user-title-blogpost {
+    width: 33.33%;
+    height: 30px;
+  }
+  
+  #user-description-post {
+    margin: 0 12.5%;
+    font-size: 20px;
+  }
+  
+  .new-post-button {
+    display: flex;
+    justify-content: center;
+    margin: 33.3% 25%;
+    font-size: 25px;
+  }
+  
+  .blog-post-title,
+  .blog-post-title:visited {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .hide {
+    display: none;
+  }

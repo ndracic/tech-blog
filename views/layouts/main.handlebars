@@ -6,21 +6,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
-  <title>The Tech Blog</title>
+  <title>A Tech Blog</title>
 </head>
 
 <body>
   <nav>
     <ul id="options-list">
-      <li><a href="/">Home</a></li>
+      <li><a href="/home">Home</a></li>
       {{#if logged_in}}
         <li><a id="dashboard" href="/blog-post">Dashboard</a></li>
         <li><a id="logout" href="/">Logout</a></li>
       {{else}}
-        <li><a href="/signup">Log In</a></li>
+        <li><a href="/signup">Singup</a></li>
       {{/if}}
     </ul>
-    <h1>The Tech Blog</h1>
+    <h1>A Tech Blog</h1>
   </nav>
   <main>
     {{{body}}}
