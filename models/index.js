@@ -1,6 +1,6 @@
-const User = require('./User');
-const Post = require('./Post');
-const Comment = require('./Comment');
+const User = require('./user');
+const Post = require('./post');
+const Comment = require('./comment');
 
 // creating an association will add a foreign key constraint to the attributes
 // adds a foreign key to target and plural association mixins to the source
