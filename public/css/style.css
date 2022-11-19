@@ -86,7 +86,7 @@ body {
     background-color:  rgb(242, 242, 242);
   }
   
-  .blog-post-info {
+  .post-info {
     display: flex;
     flex-direction: row;
     align-items: baseline;
@@ -96,11 +96,11 @@ body {
   }
   
   
-  .blog-post-date {
+  .post-date {
     color:  rgb(180, 195, 208);
   }
   
-  #blogpost-section {
+  #post-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -111,7 +111,7 @@ body {
     font-size:35px;
     color: rgb(173, 189, 202);
   }
-  #user-title-blogpost {
+  #user-title-post {
     width: 33.33%;
     height: 30px;
   }
@@ -128,8 +128,8 @@ body {
     font-size: 25px;
   }
   
-  .blog-post-title,
-  .blog-post-title:visited {
+  .post-title,
+  .post-title:visited {
     color: white;
     text-decoration: none;
   }

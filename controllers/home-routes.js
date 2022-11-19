@@ -24,9 +24,9 @@ router.get('/', async (req, res) => {
   };
 });
 
-router.get('/blog-post', (req, res) => {
+router.get('/post', (req, res) => {
   if (req.session.logged_in) {
-    res.render('blog-post')
+    res.render('post')
     return
   }
 
