@@ -1,11 +1,11 @@
 const { User } = require('../models');
 
 const userDb = [{
-        username: 'Nermin',
+        name: 'Nermin',
         password: 'test',
     },
     {
-        username: 'dracic',
+        name: 'dracic',
         password: 'test2'
     },
 ];

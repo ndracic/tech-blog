@@ -11,4 +11,4 @@ const postDb = [{
 
 const seedPosts = () => Post.bulkCreate(postDb);
 
-module.exports = seedPosts()
+module.exports = seedPosts
