@@ -59,7 +59,7 @@ body {
     padding: 12%;
   }
   
-  .form-label-name {
+  .label-name {
     font-size: 23px;
   }
   
@@ -105,8 +105,8 @@ body {
     justify-content: center;
   }
   
-  .form-post-name,
-  .form-post-description {
+  .post-name,
+  .post-description {
     font-size:35px;
     color: rgb(173, 189, 202);
   }
