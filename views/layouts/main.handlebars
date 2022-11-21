@@ -13,11 +13,13 @@
   <nav>
     <ul id="options-list">
       <li><a href="/">Home</a></li>
+      <li><a href="/login">Login</a></li>
       {{#if logged_in}}
         <li><a id="dashboard" href="/post">Dashboard</a></li>
         <li><a id="logout" href="/">Logout</a></li>
       {{else}}
         <li><a href="/signup">Singup</a></li>
+        
       {{/if}}
     </ul>
     <h1>A Tech Blog</h1>
