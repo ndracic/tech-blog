@@ -1,4 +1,4 @@
-{{#each Posts as |Posts|}}
+{{#each posts as |posts|}}
   <section class="post">
     <div class="post-info">
       <h2>
@@ -9,3 +9,22 @@
     <p class="post-description">{{Post.description}}</p>
   </section>
 {{/each}}
+
+<section id="Blog-Post-section">
+  <form id="Post-form" class="post-section hide">
+
+      <label for="posttTitle" class="post-name">Title</label>
+
+      <input id="userTitlePost" type="text">
+
+      <label for="postDescription" class="postDescription">Description</label>
+
+    <textarea name="postextDescription" id="userDescriptionDost" cols="30" rows="10"></textarea>
+
+    <input type="submit" value="Create" class="label-name form-button">
+  </form>
+
+  <button class="new-post-button">Add new post</button>
+</section>
+
+<script src="../public/js/post.js"></script>
